@@ -44,6 +44,7 @@ scene.add(objOne, objTwo, objThree,);
 
 renderer.render(scene, camera);
 
+//@ts-ignore
 const controls = new OrbitControls(camera, renderer.domElement);
 
 animate();
